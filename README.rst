@@ -1,6 +1,6 @@
 |Build Status| |Codecov| |license|
 
-frontend-template-application
+courses_catalog_frontend
 =================================
 
 Please tag **@edx/fedx-team** on any PRs or issues.  Thanks.
@@ -13,7 +13,7 @@ This repository is a template for Open edX micro-frontend applications. It is fl
 After Copying The Template
 --------------------------
 
-You'll want to do a find-and-replace to replace all instances of ``frontend-template-application`` with the name of your new repository.  Also edit index.html to replace "Application Template" with a friendly name for this application that users will see in their browser tab.
+You'll want to do a find-and-replace to replace all instances of ``courses_catalog_frontend`` with the name of your new repository.  Also edit index.html to replace "Application Template" with a friendly name for this application that users will see in their browser tab.
 
 **Prerequisite**
 
@@ -21,11 +21,11 @@ You'll want to do a find-and-replace to replace all instances of ``frontend-temp
 
 **Installation and Startup**
 
-In the following steps, replace "frontend-template-application' with the name of the repo you created when copying this template above.
+In the following steps, replace "courses_catalog_frontend' with the name of the repo you created when copying this template above.
 
 1. Clone your new repo:
 
-  ``git clone https://github.com/openedx/frontend-template-application.git``
+  ``git clone https://github.com/openedx/courses_catalog_frontend.git``
 
 2. Use node v12.x.
 
@@ -33,7 +33,7 @@ In the following steps, replace "frontend-template-application' with the name of
 
 3. Install npm dependencies:
 
-  ``cd frontend-template-application && npm install``
+  ``cd courses_catalog_frontend && npm install``
 
 4. Update the application port to use for local development:
 
@@ -54,7 +54,7 @@ the sections - this helps out all developers understand your MFE, how to install
 Project Structure
 -----------------
 
-The source for this project is organized into nested submodules according to the ADR `Feature-based Application Organization <https://github.com/openedx/frontend-template-application/blob/master/docs/decisions/0002-feature-based-application-organization.rst>`_.
+The source for this project is organized into nested submodules according to the ADR `Feature-based Application Organization <https://github.com/openedx/courses_catalog_frontend/blob/master/docs/decisions/0002-feature-based-application-organization.rst>`_.
 
 Build Process Notes
 -------------------
@@ -68,9 +68,9 @@ Internationalization
 
 Please see `edx/frontend-platform's i18n module <https://edx.github.io/frontend-platform/module-Internationalization.html>`_ for documentation on internationalization.  The documentation explains how to use it, and the `How To <https://github.com/openedx/frontend-i18n/blob/master/docs/how_tos/i18n.rst>`_ has more detail.
 
-.. |Build Status| image:: https://api.travis-ci.com/edx/frontend-template-application.svg?branch=master
-   :target: https://travis-ci.com/edx/frontend-template-application
-.. |Codecov| image:: https://codecov.io/gh/edx/frontend-template-application/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/edx/frontend-template-application
-.. |license| image:: https://img.shields.io/npm/l/@edx/frontend-template-application.svg
-   :target: @edx/frontend-template-application
+.. |Build Status| image:: https://api.travis-ci.com/edx/courses_catalog_frontend.svg?branch=master
+   :target: https://travis-ci.com/edx/courses_catalog_frontend
+.. |Codecov| image:: https://codecov.io/gh/edx/courses_catalog_frontend/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/edx/courses_catalog_frontend
+.. |license| image:: https://img.shields.io/npm/l/@edx/courses_catalog_frontend.svg
+   :target: @edx/courses_catalog_frontend
