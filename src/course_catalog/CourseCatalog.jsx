@@ -55,6 +55,7 @@ const CourseCatalog = () => {
               coursesList.results.map((course) => (
 
                 <Card className="edx-course-catalog" key={course.name} style={{ width: isExtraSmall ? '100%' : '20rem' }} isClickable>
+                  <image src={lmsUrl + course.media.course_image.uri} alt={course.name} />
                   <Card.ImageCap
                     src={lmsUrl + course.media.course_image.uri}
                     srcAlt={course.name}
